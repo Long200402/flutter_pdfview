@@ -138,7 +138,7 @@
             _pdfView.autoScales = _autoSpacing;
   
             [_pdfView usePageViewController:pageFling withViewOptions:nil];
-            _pdfView.displayMode = enableSwipe ? kPDFDisplaySinglePageContinuous : kPDFDisplaySinglePage;
+            _pdfView.displayMode = kPDFDisplaySinglePage;
             _pdfView.document = document;
 
             _pdfView.maxScaleFactor = 4.0;
